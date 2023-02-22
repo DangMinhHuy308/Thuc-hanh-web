@@ -252,7 +252,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, consequuntur cupiditate rem nesciunt voluptatem omnis.
                     </small>
                     <div class="button">
-                        <a href="#" class="btn">Buy Now &#10132</a>
+                        <a href="javascript:buyNow()" class="btn">Buy Now &#10132</a>
                     </div>
                 </div>
             </div>
@@ -386,5 +386,15 @@
             <p class="copyright">Copyright 2023 - DMHuy</p>
         </div>
     </div>
+    <!-- end footer -->
 </body>
 </html>
+<!-- JavaScript -->
+<script type="text/javaScript">
+    function buyNow() {
+        question = confirm("Bạn muốn mua sản phẩm này?");
+        if(question != false){
+            alret('Cảm ơn bạn đã chọn mua sản phẩm')
+        }
+    }
+</script>  
