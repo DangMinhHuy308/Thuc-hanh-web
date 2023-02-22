@@ -240,13 +240,15 @@ small{
     color: #777;
     flex-wrap: nowrap;
 }
+.footer-col-1, .footer-col-2,.footer-col-3, .footer-col-4{
+    margin: 50px 0;  
+}
 .footer-col-1, .footer-col-2{
     flex-basis: 35%;
 }
 
 .footer-col-3, .footer-col-4{
     flex-basis: 15%;
-    margin: 50px 0;  
 }
 .footer-col-2 p{
     text-align: center;
