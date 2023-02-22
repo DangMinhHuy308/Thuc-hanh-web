@@ -220,16 +220,18 @@ samll{
 .col-5 img:hover{
     filter: grayscale(0);
 }
-
+/* footer */
 .footer{
     background: #000;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 .footer h3{
     color: #fff;
+    margin-bottom: 10px;
 }
 .footer p{
     color: #777;
@@ -241,20 +243,22 @@ samll{
 
 .footer-col-3, .footer-col-4{
     flex-basis: 15%;
-    margin: 50px 0;
+    margin: 50px 0;  
 }
 .footer-col-2 p{
     text-align: center;
+    margin-top: 24px;
 }
 .footer-col-3 h3,.footer-col-4 h3{
     text-align: center;
 }
-.footer-col-2 .app-logo img{
-    width: 320px;
-}
 .footer-col-1 .app-logo img{
     width: 40%;
     padding: 8px;
+    margin-top: 10px;
+}
+.footer-col-2 .app-logo img{
+    width: 320px;
 }
 ul{
     color: #777;
