@@ -196,7 +196,7 @@ samll{
     color: #555;
     font-size: 16px;
 }
-.fa fa-quote-left{
+.col-3 .fa-quote-left{
     font-size: 34px;
     color: #ff523b;
 }
@@ -220,10 +220,48 @@ samll{
 .col-5 img:hover{
     filter: grayscale(0);
 }
+
 .footer{
-    margin-bottom: 500px;
-    background: #333;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer h3{
+    color: #fff;
+}
+.footer p{
+    color: #777;
+    flex-wrap: nowrap;
+}
+.footer-col-1, .footer-col-2{
+    flex-basis: 35%;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 15%;
+    margin: 50px 0;
+}
+.footer-col-2 p{
+    text-align: center;
+}
+.footer-col-3 h3,.footer-col-4 h3{
+    text-align: center;
+}
+.footer-col-2 .app-logo img{
+    width: 320px;
+}
+.footer-col-1 .app-logo img{
+    width: 40%;
+    padding: 8px;
+}
+ul{
+    color: #777;
+    list-style: none;
+    text-align: center;
 }
 .copyright{
+    margin-top: 30px;
     text-align: center;
 }
